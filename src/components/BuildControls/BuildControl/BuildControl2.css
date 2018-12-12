@@ -1,0 +1,68 @@
+
+  .buttonHolder{
+    margin:80px auto;
+    width:400px;
+   
+  }
+  
+  
+          .button{
+             
+              border-radius: 50%;
+              box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, .3), inset 0px 4px 1px 1px white, inset 0px -3px 1px 1px rgba(204,198,197,.5);
+              float:left;
+              height: 60px;
+              font-size: 2em;
+              margin: 0 40px 40px 0;
+              position: relative;
+              width: 60px;			
+              -webkit-transition: all .1s linear;
+              transition: all .1s linear;
+          }
+  
+          .button:after{
+              color:#e9e6e4;
+             
+              display: block;
+              font-size: 30px;
+              height: 30px;
+              text-decoration: none;
+              text-shadow: 0px -1px 1px #bdb5b4, 1px 1px 1px white;
+              position: absolute;
+              width: 30px;
+          }
+  
+  
+          .button:hover{
+               background-image: -webkit-linear-gradient(to bottom, #fff, #f4f1ee);
+              background-image: linear-gradient(to bottom, #fff, #f4f1ee); 
+              color:#f94e66;
+          }
+  
+          
+          
+  
+            .button:active{
+               background-image: -webkit-linear-gradient(to bottom, #efedec, #f7f4f4);
+              background-image: linear-gradient(to bottom, #efedec, #f7f4f4); 
+               box-shadow: 0 3px 5px 0 rgba(0,0,0,.4), inset 0px -3px 1px 1px rgba(204,198,197,.5);  
+          } 
+   
+           .button:active:after{
+              color:#dbd2d2;
+              text-shadow: 0px -1px 1px #bdb5b4, 0px 1px 1px white;
+          } 
+          .button:disabled{
+            background-image: -webkit-linear-gradient(to bottom, #555353, #ccc5c5);
+            background-image: linear-gradient(to bottom, #5a5958, #ffffff); 
+             box-shadow: 0 3px 5px 0 rgba(0,0,0,.4), inset 0px -3px 1px 1px rgba(204,198,197,.5);
+          }
+
+          .Label {
+            padding: 5px;
+            margin:auto;
+            font-weight: bold;
+            width: 180px;
+            letter-spacing: 5px;
+            text-align: center;
+        }
