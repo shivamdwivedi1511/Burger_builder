@@ -5,7 +5,7 @@
     z-index: 100;
     left: 0;
     top: 0;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 1);
     -webkit-filter: blur(4px);
         -moz-filter: blur(4px);
         -o-filter: blur(4px);

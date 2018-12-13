@@ -12,10 +12,13 @@ const OrderSummary =(props)=>{
 
 return (<Aux >
     <h3>YOUR ORDER</h3>
-    <h4>your yummy burger has following ingredients::</h4>
+    <h3>your yummy burger has following ingredients::</h3>
     <ul  className={classes.ul}>
            {items}
     </ul>
+    <p className={classes.p}>total price : {props.price}</p>
+    <button className={classes.button+" "+ classes.red} onClick={props.modalClose}>Cancel</button>
+    <button className={classes.button+" "+ classes.green} onClick={props.modalContinue}>continue</button>
 </Aux>);
 
 }
